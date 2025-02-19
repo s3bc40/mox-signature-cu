@@ -3,7 +3,8 @@ from eth_utils import to_wei
 from script.make_merkle import generate_merkle_tree
 from moccasin.boa_tools import VyperContract
 
-INITIAL_SUPPLY = to_wei(100, "ether")
+# INITIAL_SUPPLY = to_wei(100, "ether")
+INITIAL_SUPPLY = to_wei(200, "ether")
 
 
 def deploy_merkle() -> VyperContract:

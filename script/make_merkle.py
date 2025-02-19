@@ -4,7 +4,7 @@ from typing import Dict, List, Tuple
 from eth_abi import encode
 from eth_utils import keccak
 
-DEFAULT_AMOUNT = 25000000000000000000
+DEFAULT_AMOUNT = 150 * 10**18
 DEFAULT_INPUT = {
     "values": {
         "0": {
@@ -21,6 +21,22 @@ DEFAULT_INPUT = {
         },
         "3": {
             "0": "0xf6dBa02C01AF48Cf926579F77C9f874Ca640D91D",
+            "1": DEFAULT_AMOUNT,
+        },
+        "4": {
+            "0": "0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f",
+            "1": DEFAULT_AMOUNT,
+        },
+        "5": {
+            "0": "0xa0Ee7A142d267C1f36714E4a8F75612F20a79720",
+            "1": DEFAULT_AMOUNT,
+        },
+        "6": {
+            "0": "0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc",
+            "1": DEFAULT_AMOUNT,
+        },
+        "7": {
+            "0": "0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65",
             "1": DEFAULT_AMOUNT,
         },
     }
